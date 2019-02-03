@@ -1,17 +1,9 @@
 // @flow
 /* eslint-disable no-unused-expressions */
 import * as React from 'react'
-import { Col, Grid, asGrid, Layout, asLayout } from 'gymnast'
+import { Grid, asGrid } from 'gymnast'
 
-const components = [
-  asGrid('span'),
-  asGrid(() => <div />),
-  asLayout('div'),
-  asLayout(() => <p />),
-  Col,
-  Grid,
-  Layout,
-]
+const components = [asGrid('span'), asGrid(() => <div />), Grid]
 
 components.forEach(Component => {
   // it should work without parameters

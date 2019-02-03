@@ -1,7 +1,7 @@
 {
   "name": "gymnast",
   "version": "0.0.0-semantically-released",
-  "description": "Configurable grid and layout engine for React",
+  "description": "Configurable grid for React",
   "main": "index.js",
   "unpkg": "dist/gymnast.min.js",
   "homepage": "https://gymnastjs.github.io/gymnast",
